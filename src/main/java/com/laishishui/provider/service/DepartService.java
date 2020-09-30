@@ -11,7 +11,7 @@ import java.util.List;
  */
 public interface DepartService {
     boolean saveDepart(Depart depart);
-    boolean remoteDepart(Integer id);
+    boolean removeDepart(Integer id);
     boolean modifyDepart(Depart depart);
     Depart getDepartById(Integer id);
     List<Depart> listAllDeparts();

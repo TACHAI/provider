@@ -27,7 +27,7 @@ public class DepartServiceImpl implements DepartService {
     }
 
     @Override
-    public boolean remoteDepart(Integer id) {
+    public boolean removeDepart(Integer id) {
         // 指定id的实体不存在，deleteById()
         if(repository.existsById(id)){
             repository.deleteById(id);
